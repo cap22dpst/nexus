@@ -1,0 +1,129 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #012970;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  width: 10rem;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289 !important;
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: #4154f1 !important;
+}
+
+.carousel-top,
+.carousel-top .carousel-item,
+.carousel-top .carousel-item img {
+  height: 52.5rem;
+}
+
+.carousel-top .carousel-item img {
+  object-fit: cover;
+}
+
+#project-opportunities img {
+  object-fit: cover;
+  height: 6.5rem;
+  width: 6.5rem;
+}
+
+#project-opportunities .card-1 {
+  border-bottom: 4px solid #2db6fa;
+}
+
+#project-opportunities .card-1 i {
+  color: #2db6fa;
+}
+
+#project-opportunities .card-2 {
+  border-bottom: 4px solid #f68c09;
+}
+
+#project-opportunities .card-2 i {
+  color: #f68c09;
+}
+
+#project-opportunities .card-3 {
+  border-bottom: 4px solid #08da4e;
+}
+
+#project-opportunities .card-3 i {
+  color: #08da4e;
+}
+
+#project-opportunities .card-4 {
+  border-bottom: 4px solid #e9222c;
+}
+
+#project-opportunities .card-4 i {
+  color: #e9222c;
+}
+
+#project-opportunities .card-5 {
+  border-bottom: 4px solid #b50edf;
+}
+
+#project-opportunities .card-5 i {
+  color: #b50edf;
+}
+
+#project-opportunities .card-6 {
+  border-bottom: 4px solid #f51f9c;
+}
+
+#project-opportunities .card-6 i {
+  color: #f51f9c;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container-img {
+  transition: 0.3s ease-in-out;
+}
+
+.img-container-middle {
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .img-container-img {
+  opacity: 0.25;
+}
+
+.img-container:hover .img-container-middle {
+  opacity: 1;
+}
+
+.img-container-middle div {
+  background-color: #4154f1;
+  padding: 0.65rem;
+  cursor: pointer;
+}
+
+.img-container-middle div:hover {
+  opacity: 0.9;
+}

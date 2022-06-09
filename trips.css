@@ -1,0 +1,98 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #012970;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  width: 10rem;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289 !important;
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: #4154f1 !important;
+}
+
+button.create-trip {
+  background-color: #012970;
+  color: white;
+  font-size: 1.1rem;
+}
+
+button.create-trip:hover {
+  background-color: #003591;
+  color: white;
+}
+
+.trip-card {
+  border-radius: 1.2rem;
+}
+
+.trip-card .avatar {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.trip-card .created-by{
+  color: grey;
+  font-size: 0.8rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.trip-card .creator-name{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.trip-card span.divider {
+  width: 1px;
+  height: 40px;
+  background-color: rgb(184, 184, 184);
+  opacity: 0.5;
+}
+
+.destination-img {
+  border-radius: 1.2rem;
+}
+
+.interested-users {
+  margin: 0.8rem 0;
+  font-size: 0.8rem;
+}
+
+.interested-users {
+  font-weight: 700;
+}
+
+.view-button {
+  font-size: 1.2rem;
+  width: 50%;
+}
+
+.interested-button {
+  font-size: 1.2rem;
+  width: 50%;
+  background-color: #F32424;
+  color: white;
+  border-radius: 0.5rem 0.5rem 1.2rem 0.5rem;
+}
+
+.interested-button:hover {
+  color: white;
+}
