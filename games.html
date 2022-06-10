@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movies</title>
+    <title>Games</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="movies.css">
+    <link rel="stylesheet" href="games.css">
 </head>
 
 <body class="mb-5">
@@ -33,8 +33,8 @@
                     <a class="nav-link" aria-current="page" href="#society-events">Trips</a>
                     <a class="nav-link" href="#project-opportunities">Project Opportunities</a>
                     <a class="nav-link" href="#trip-opportunities">Society Events</a>
-                    <a class="nav-link active" href="#trip-opportunities">Movies</a>
-                    <a class="nav-link" href="#trip-opportunities">Games</a>
+                    <a class="nav-link" href="#trip-opportunities">Movies</a>
+                    <a class="nav-link active" href="#trip-opportunities">Games</a>
                     <button class="btn btn-primary ms-lg-3"><a href="landing.html"
                             class="text-white text-decoration-none">Sign Out</a></button>
                 </div>
@@ -42,196 +42,141 @@
         </div>
     </nav>
 
-    <div class="container-fluid movies">
-        <h1 class="text-center my-4 movies-heading">MOVIES & SHOWS RECOMMENDATIONS</h1>
-        <div class="row g-1">
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/49WJfeN0moxb9IPfGn8AIqMGskD.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">Stranger Things</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
+    <div class="container-fluid px-4">
+        <h1 class="text-center my-4 games-heading">RECOMMENDED GAMES</h1>
+        <div class="mb-4 mx-auto searchbar rounded-pill d-flex">
+            <input type="text" class="flex-grow-1" placeholder="Search..">
+            <button class="rounded-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </button>
+        </div>
+        <div class="row gx-3 pt-3">
+            <div class="col-3">
+                <div class="game-container w-100">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/6c9/6c9d036518f78895ddf552d2cb7421d6.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">86%</p>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
                             </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Netflix</p>
-                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">75</apan>
                         </div>
+                        <h3 class="mt-2 mb-0">Stray</h3>
+                    </div>
+                </div>
+                <div class="game-container w-100 mt-3">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/51b/51b07b3c7a87b7ff6b1d82a0d12870ae.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
+                                <i class="fa-brands fa-xbox me-2"></i>
+                                <i class="fa-brands fa-apple me-2"></i>
+                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">85</apan>
+                        </div>
+                        <h3 class="mt-2 mb-0">Tunic</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/teCy1egGQa0y8ULJvlrDHQKnxBL.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">Hotel Transylvania: Transformia</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
+            <div class="col-3">
+                <div class="game-container w-100">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/268/268a25ed5ef5a72a0d73c83b22b4a0e3.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">71%</p>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
                             </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Prime video</p>
-                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">84</apan>
                         </div>
+                        <h3 class="mt-2 mb-0">Halo Infinite</h3>
+                    </div>
+                </div>
+                <div class="game-container w-100 mt-3">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/121/121886081065b3b2124c917f70ff9659.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
+                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">83</apan>
+                        </div>
+                        <h3 class="mt-2 mb-0">Resident Evil: Village</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">Dr. Strange</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
+            <div class="col-3">
+                <div class="game-container w-100">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/bef/bef5d6085129fda4d26a2293b9edb30e.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">74%</p>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
+                                <i class="fa-brands fa-xbox me-2"></i>
                             </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Hotstar</p>
-                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">89</apan>
                         </div>
+                        <h3 class="mt-2 mb-0">It Takes Two</h3>
+                    </div>
+                </div>
+                <div class="game-container w-100 mt-3">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/dfc/dfc2297daea764355a7fa2771d173703.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
+                                <i class="fa-brands fa-xbox me-2"></i>
+                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">88</apan>
+                        </div>
+                        <h3 class="mt-2 mb-0">Mass Effect: Legendary Edition</h3>
                     </div>
                 </div>
             </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/stTEycfG9928HYGEISBFaG1ngjM.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">The Boys</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
+            <div class="col-3">
+                <div class="game-container w-100">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/115/1150f954fe98f1b0913540b37d4d9815.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">84%</p>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
                             </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Prime video</p>
-                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">88</apan>
                         </div>
+                        <h3 class="mt-2 mb-0">Deathloop</h3>
                     </div>
                 </div>
-            </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pTEFqAjLd5YTsMD6NSUxV6Dq7A6.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">All of Us Are Dead</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
+                <div class="game-container w-100 mt-3">
+                    <img src="https://media.rawg.io/media/resize/1920/-/screenshots/780/78020fb32b36d6a050da58f7ce5962aa.jpg"
+                        class="img-fluid">
+                    <div class="p-3 game-info">
+                        <div class="d-flex justify-content-between align-items-center">
                             <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">85%</p>
+                                <i class="fa-brands fa-playstation me-2"></i>
+                                <i class="fa-brands fa-windows me-2"></i>
+                                <i class="fa-brands fa-xbox me-2"></i>
                             </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Netflix</p>
-                            </div>
+                            <span class="border border-success border-1 text-success rounded-3">76</apan>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wFjboE0aFZNbVOF05fzrka9Fqyx.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">The Adam Project</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
-                            <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">71%</p>
-                            </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Netflix</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vKDUmKO6F9bSKKyHhg7YGbgcEeF.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">Moon Knight</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
-                            <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">82%</p>
-                            </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Hotstar</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">Peaky Blinders</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
-                            <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">86%</p>
-                            </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Netflix</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/74xTEgt7R36Fpooo50r9T25onhq.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">The Batman</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
-                            <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">78%</p>
-                            </div>
-                            <div>
-                                <p class="m-0">Buy or Rent on:</p>
-                                <p class="m-0">Amazon</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
-                <div class="position-relative">
-                    <img class="w-100 movie-image"
-                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg">
-                    <div class="movie-info px-2 pb-2 position-absolute bottom-0 start-0 w-100">
-                        <h4 class="ps-2">Eternals</h4>
-                        <div class="d-flex justify-content-between px-2 pb-2">
-                            <div>
-                                <p class="m-0">Viewer Score:</p>
-                                <p class="m-0">71%</p>
-                            </div>
-                            <div>
-                                <p class="m-0">Watch on:</p>
-                                <p class="m-0">Hotstar</p>
-                            </div>
-                        </div>
+                        <h3 class="mt-2 mb-0">Back 4 Blood</h3>
                     </div>
                 </div>
             </div>
