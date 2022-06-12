@@ -1,0 +1,61 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #012970;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  width: 10rem;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289 !important;
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: #4154f1 !important;
+}
+
+.project-opp-card {
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: 2px 2px 5px rgb(235, 235, 235);
+}
+
+.project-opp-card .prof-name-headings {
+  color: rgb(155, 155, 155);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.project-opp-card .prof-name-headings i {
+  font-size: 0.8rem;
+  margin-right: 0.1rem;
+}
+
+.project-opp-card img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+}
+
+.project-opp-card .info {
+  color: #012970;
+  font-weight: 700;
+}
+
+.project-opp-card button.read-more {
+  color:#013289;
+  text-decoration: none;
+  font-weight: 700;
+}
