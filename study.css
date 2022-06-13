@@ -1,0 +1,124 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #012970;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  width: 10rem;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289 !important;
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: #4154f1 !important;
+}
+
+.roadmap {
+  height: 300px;
+}
+
+.step-1 {
+  background-color: #a85cf9;
+}
+
+.step-1 .milestone-circle {
+  color: #a85cf9;
+}
+
+.roadmap .milestone-circle {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  left: 20.75%;
+}
+
+.roadmap .milestone-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.roadmap .progress-line {
+  display: inline-block;
+  width: 0;
+  height: 150px;
+  border-style: dotted;
+  border-width: 0 3px 0 0;
+  border-color: white;
+}
+
+.roadmap .progress-line-head {
+  margin-top: -0.5rem;
+  color: white;
+}
+
+.roadmap .milestone-info-col {
+  padding: 2.5rem 1rem;
+}
+
+.roadmap .milestone-info {
+  max-height: 220px;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.roadmap .milestone-info h6 {
+  color: white;
+}
+
+.roadmap .milestone-info::-webkit-scrollbar {
+  width: 5px;
+}
+
+.roadmap .milestone-info::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 1rem;
+}
+
+.roadmap .milestone-info::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.roadmap .milestone-info::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.step-2 {
+  background-color: #623cbb;
+}
+
+.step-2 .milestone-circle {
+  color: #623cbb;
+}
+
+.step-3 {
+  background-color: #4b7be5;
+}
+
+.step-3 .milestone-circle {
+  color: #4b7be5;
+}
+
+.step-4 {
+  background-color: #5dbebe;
+}
+
+.step-4 .milestone-circle {
+  color: #5dbebe;
+}
