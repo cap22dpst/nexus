@@ -1,0 +1,57 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #012970;
+  font-weight: 700;
+}
+
+.navbar-brand img {
+  width: 10rem;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 700;
+  color: #013289 !important;
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: #4154f1 !important;
+}
+
+.course-info {
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(223, 220, 220);
+}
+
+.discussion-panel {
+    border: 1px solid rgb(223, 220, 220);
+    background-color:  white;
+    margin-top: 3rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.discussion-react-button {
+    font-size: 0.8rem;
+    color: rgb(85, 85, 85);
+}
+
+.discussion-panel .likes {
+    color: rgb(231, 1, 40);
+    font-size: 0.8rem;
+
+}
+
+.discussion-panel .likes i {
+    font-size: 0.75rem;
+}
