@@ -126,7 +126,48 @@ h6 {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 1050px;
+    max-width: 1100px;
     margin: 1.75rem auto;
   }
+}
+
+button.create-trip {
+  background-color: #012970;
+  color: white;
+  font-size: 1.1rem;
+}
+
+button.create-trip:hover {
+  background-color: #003591;
+  color: white;
+}
+
+.searchbar {
+  margin-top: 2.5rem;
+  width: 500px;
+  border: 2px solid #013289;
+  padding: 0.5rem;
+}
+
+.searchbar input {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+
+.searchbar button {
+  background: #013289;
+  border: none;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.project-opp-card {
+  border: 1px solid rgb(233, 233, 233);
+  box-shadow: 2px 2px 5px rgb(235, 235, 235);
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
 }
