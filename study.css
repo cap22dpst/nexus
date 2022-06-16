@@ -123,3 +123,10 @@ h6 {
 .step-4 .milestone-circle {
   color: #5dbebe;
 }
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1050px;
+    margin: 1.75rem auto;
+  }
+}
