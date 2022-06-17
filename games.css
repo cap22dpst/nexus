@@ -53,24 +53,52 @@ h6 {
 }
 
 .game-container {
-    background-color: #170f31;
-    border-radius: 1rem;
+  background-color: #170f31;
+  border-radius: 1rem;
 }
 
 .game-container img {
-    border-radius: 1rem 1rem 0 0;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .game-container .game-info {
-    color: white;
+  color: white;
 }
 
 .game-container .game-info span {
-    font-size: 0.8rem;
-    padding: 3px 4px 0 4px;
-    font-weight: 700;
+  font-size: 0.8rem;
+  padding: 3px 4px 0 4px;
+  font-weight: 700;
 }
 
 .game-container .game-info h3 {
-    color: white;
+  color: white;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+  }
+}
+
+#gameInfoModal .modal-body{
+  background-color: #170f31;
+} 
+
+#gameScreenshotCarousel {
+  height: 300px;
+}
+
+#gameScreenshotCarousel img {
+  object-fit: cover;
+}
+
+#gameInfoModal .game-info {
+  width: 525px;
+}
+
+#gameInfoModal .game-info h6{
+  font-size: 0.9rem;
+  color: #5236ad;
 }
