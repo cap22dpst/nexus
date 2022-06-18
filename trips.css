@@ -48,14 +48,14 @@ button.create-trip:hover {
   object-fit: cover;
 }
 
-.trip-card .created-by{
+.trip-card .created-by {
   color: grey;
   font-size: 0.8rem;
   font-weight: 500;
   opacity: 0.8;
 }
 
-.trip-card .creator-name{
+.trip-card .creator-name {
   font-size: 1.1rem;
   font-weight: 700;
 }
@@ -88,11 +88,45 @@ button.create-trip:hover {
 .interested-button {
   font-size: 1.2rem;
   width: 50%;
-  background-color: #F32424;
+  background-color: #f32424;
   color: white;
   border-radius: 0.5rem 0.5rem 1.2rem 0.5rem;
 }
 
 .interested-button:hover {
   color: white;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 900px;
+    margin: 1.75rem auto;
+  }
+}
+
+.trip-modal {
+  border-radius: 2.5rem;
+}
+
+.trip-modal img {
+  height: 400px;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.trip-modal .trip-info {
+  width: 70%;
+}
+
+.trip-modal .trip-info .se-heading {
+  color: rgb(158, 158, 158);
+  font-size: 0.9rem;
+}
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+  width: 0;
+}
+
+.trip-modal .interested-button {
+  width: 200px;
 }
