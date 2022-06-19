@@ -32,13 +32,13 @@ h6 {
   box-shadow: 2px 2px 5px rgb(235, 235, 235);
 }
 
-.project-opp-card .prof-name-headings {
+.prof-name-headings {
   color: rgb(155, 155, 155);
   font-size: 0.9rem;
   font-weight: 700;
 }
 
-.project-opp-card .prof-name-headings i {
+.prof-name-headings i {
   font-size: 0.8rem;
   margin-right: 0.1rem;
 }
@@ -49,13 +49,60 @@ h6 {
   object-fit: cover;
 }
 
-.project-opp-card .info {
+.info {
   color: #012970;
   font-weight: 700;
 }
 
 .project-opp-card button.read-more {
-  color:#013289;
+  color: #013289;
   text-decoration: none;
   font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 700px;
+    margin: 1.75rem auto;
+  }
+}
+
+.modal-h5 {
+  font-size: 1.15rem;
+}
+
+.modal-hr {
+  background-color: rgb(139, 139, 139);
+}
+
+.skill-container {
+  background-color: rgb(236, 236, 236);
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+  width: 0;
+}
+
+.modal-content .d-flex.overflow-auto::-webkit-scrollbar {
+  height: 5px;
+}
+
+.modal-content .d-flex.overflow-auto::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50rem;
+}
+
+.modal-content .d-flex.overflow-auto::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50rem;
+}
+
+.modal-content .d-flex.overflow-auto::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.modal-content .d-flex.overflow-auto div {
+  flex-shrink: 0;
 }

@@ -132,3 +132,7 @@ h6 {
 .cast-card-body .card-text {
   font-size: 0.9rem;
 }
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+  width: 0;
+}

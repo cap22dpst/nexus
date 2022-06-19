@@ -82,9 +82,9 @@ h6 {
   }
 }
 
-#gameInfoModal .modal-body{
+#gameInfoModal .modal-body {
   background-color: #170f31;
-} 
+}
 
 #gameScreenshotCarousel {
   height: 300px;
@@ -98,7 +98,11 @@ h6 {
   width: 525px;
 }
 
-#gameInfoModal .game-info h6{
+#gameInfoModal .game-info h6 {
   font-size: 0.9rem;
   color: #5236ad;
+}
+
+.modal-dialog-scrollable .modal-body::-webkit-scrollbar {
+  width: 0;
 }
