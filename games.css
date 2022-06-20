@@ -27,9 +27,15 @@ h6 {
   color: #4154f1 !important;
 }
 
-.games-heading {
-  font-weight: 100;
-  font-size: 2.5rem;
+button.create-trip {
+  background-color: #012970;
+  color: white;
+  font-size: 1.1rem;
+}
+
+button.create-trip:hover {
+  background-color: #003591;
+  color: white;
 }
 
 .searchbar {
@@ -105,4 +111,30 @@ h6 {
 
 .modal-dialog-scrollable .modal-body::-webkit-scrollbar {
   width: 0;
+}
+
+.upvote-button {
+  color: greenyellow;
+}
+
+.upvote-button:hover {
+  color: rgb(120, 179, 32);
+}
+
+.upvote-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.downvote-button {
+  color: red;
+}
+
+.downvote-button:hover {
+  color: rgb(207, 0, 0);
+}
+
+.downvote-button:focus {
+  outline: none;
+  box-shadow: none;
 }

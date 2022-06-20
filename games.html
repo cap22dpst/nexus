@@ -42,18 +42,23 @@
         </div>
     </nav>
 
-    <div class="container-fluid px-4">
-        <h1 class="text-center my-4 games-heading">RECOMMENDED GAMES</h1>
-        <div class="mb-4 mx-auto searchbar rounded-pill d-flex">
-            <input type="text" class="flex-grow-1" placeholder="Search..">
-            <button class="rounded-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                </svg>
-            </button>
+    <div class="container">
+        <div class="d-flex justify-content-between my-4">
+            <div class="searchbar rounded-pill d-flex">
+                <input type="text" class="flex-grow-1" placeholder="Search..">
+                <button class="rounded-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </button>
+            </div>
+            <button type="button" class="rounded-pill btn create-trip py-2 px-3">Recommended Movies & TV Shows</button>
         </div>
+    </div>
+
+    <div class="container-fluid px-4">
         <div class="row gx-3 pt-3">
             <div class="col-3">
                 <div class="game-container w-100" role="button" data-bs-toggle="modal" data-bs-target="#gameInfoModal">
@@ -214,7 +219,25 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-                    <div class="p-4 text-white">
+                    <div class="d-flex justify-content-around mt-2">
+                        <button class="btn upvote-button p-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
+                                class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+                            </svg>
+                            upvote
+                        </button>
+                        <button class="btn downvote-button p-0 ms-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="currentColor"
+                                class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+                            </svg>
+                            downvote
+                        </button>
+                    </div>
+                    <div class="px-4 pb-4 text-white mt-3">
                         <h4 class="text-white">About</h4>
                         <p>Lost, alone, and separated from family, a stray cat must untangle an ancient mystery to
                             escape a long-forgotten cybercity and find the way home.</p>
